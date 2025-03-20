@@ -1,0 +1,57 @@
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+log/
+logs/
+
+# IntelliJ-specific project files
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+.idea/shelf/
+
+# IDE workspace files
+*.swp
+*.bak
+*.tmp
+*.orig
+
+### Plugin-specific ###
+/build/  # Svi build artefakti
+/out/    # Izlazni fajlovi
+/dist/   # Plugin distributivni fajlovi
+/target/ # Mogući folder ako koristiš Maven
+/.gradle/
+/*.log   # Log fajlovi
+**/tmp/  # Privremeni fajlovi
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Java ###
+*.class
+*.war
+*.ear
+*.jar
+
+### Dependency Caches ###
+/out/
+/node_modules/
+/target/
+/dist/
+
+### Logs ###
+*.log
+
+### IntelliJ Run Configurations (opciono) ###
+.idea/runConfigurations/
